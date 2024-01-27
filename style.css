@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.3);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(117, 115, 115, 0.5);
+}
+
+
+body {
+    background-color: #18181B;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+}
+
+.navbar {
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #ffffff;
+    z-index: -100;
+    opacity: 1;
+}
+
+
+
+.nav-logo {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin-left: 110px;
+    border-radius: 50%;
+}
+
+.navbar li {
+    display: flexbox;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    padding: 43px 30px;
+    color: white;
+    margin-left: 70px;
+}
+
+.btn-code {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor:grab;
+    transition: all 0.3s ease;
+    margin-right: 80px;
+    border: 2px white solid;
+}
+
+.btn-code:hover {
+    background-color: #181818;
+    color: white;
+}
+
+.hakkimizda {
+    display: flex;
+    height: 5vh;
+}
+
+header {
+    position: relative;
+    padding-top: 7rem;
+    padding-left: 12rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+header .content h4 {
+    margin-bottom: 1rem;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header .content h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+header .content h1 span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+header .content p {
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.advantage-card {
+    display: flex;
+}
+
+.advantage {
+    flex: 1;
+    background-color: #18181B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 900px;
+}
+
+.avandajed {
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 43%;
+    color: white;
+}
+
+section .header {
+    padding-top: 200px;
+    margin-bottom: 4%;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features {
+    display: inline-block;
+    margin-top: 6rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.features .card {
+    display: inline-block;
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    width: 300px;
+    height: 160px;
+    margin-left: 600px;
+}
+
+.features .card:hover {
+    background-color: #323232;
+    border-color: #313338;
+}
+
+.features .card span {
+    margin: 10;
+    display: inline-block;
+    background-color: #1e40af;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #313338;
+    border-radius: 5px;
+}
+
+.features .card h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.features .card a {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.features .card a:hover {
+    color: #0949e9;
+}
+
+.hometext {
+    padding-left: 230px;
+    width: 100%
+}
+
+
+.hometextp {
+    opacity: 0.4;
+    padding-left: 242px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.info-text {
+    color: white;
+    opacity: 0.4;
+    height: 200px;
+    width: 1000px;
+    padding-top: 200px;
+    padding-left: 300px;
+    font-size: 24px;
+}
+
+.info-55 {
+    display: flex;
+    background-color: #2d2c2c;
+    height: 30px;
+    margin-top: 500px;
+}
+
+.contact-text {
+    padding-top: 500px;
+    padding-left: 39rem;
+    color: white;
+}
+
+.google-expor-xs- {
+    margin-top: -80px;
+    color: white;
+    opacity: 0.2;
+    padding-left: 180px;
+    
+}
+
+.contact-info-xd{
+    display: grid;
+    color: white;
+    opacity: 0.3;
+    padding-left: 1100px;
+    padding-top: 100px;
+}
